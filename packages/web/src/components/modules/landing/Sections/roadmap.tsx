@@ -98,7 +98,7 @@ export function Roadmap() {
       className="bg-[url(/svg/roadmap-bg.svg)] bg-[length:1920px_1124px] bg-no-repeat"
     >
       <Container
-        w="100vw"
+        w="100%"
         maxW="1440px"
       >
         <Flex

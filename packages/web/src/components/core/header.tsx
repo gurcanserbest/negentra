@@ -55,7 +55,7 @@ export function Header() {
         >
           <Flex
             flexShrink="0"
-            className="mx-auto md:mx-0"
+            className="mx-auto lg:mx-0"
             cursor="pointer"
             onClick={() => {navigate('/')}}
           >
@@ -63,7 +63,7 @@ export function Header() {
           </Flex>
 
           <Flex
-            className="space-x-[16px] lg:space-x-[32px] hidden md:flex items-center"
+            className="space-x-[16px] lg:space-x-[32px] hidden lg:flex items-center"
           >
             {menus.map((menu, i) =>
               <Flex

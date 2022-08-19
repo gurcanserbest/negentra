@@ -53,7 +53,7 @@ export function Toys() {
       marginBottom="152px"
     >
       <Container
-        w="100vw"
+        w="100%"
         maxW="1410px"
         marginBottom="64px"
       >
