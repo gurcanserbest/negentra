@@ -1,7 +1,8 @@
 import Slider from 'react-slick';
 import { useCallback, useRef } from 'react';
-import { Button, Text, Title, Button3d } from '@negentra/src/components';
+import { Text, Title, Button3d } from '@negentra/src/components';
 import { Container, Image, Flex } from '@chakra-ui/react';
+import { ChevronDoubleRightIcon, ChevronDoubleLeftIcon, ShoppingBagIcon } from '@heroicons/react/solid';
 
 import toys from '@negentra/public/json/toys.json';
 
@@ -116,9 +117,9 @@ export function Toys() {
           color="#FF6F00"
           bg="#CA6110"
         >
-          <Image
-            w="24px"
-            src="/svg/arrow-left.svg"
+          <ChevronDoubleLeftIcon
+            width="24px"
+            color="white"
           />
         </Button3d>
         
@@ -143,10 +144,10 @@ export function Toys() {
                 alignItems="center"
                 justifyContent="center"
               >
-                <Image
-                  src="/svg/bag.svg"
-                  h="16px"
-                  w="16px"
+                <ShoppingBagIcon
+                  width="16px"
+                  height="16px"
+                  color="#FF6F00"
                 />
               </Flex>
 
@@ -170,9 +171,9 @@ export function Toys() {
           color="#FF6F00"
           bg="#CA6110"
         >
-          <Image
-            w="24px"
-            src="/svg/arrow-right.svg"
+          <ChevronDoubleRightIcon
+            width="24px"
+            color="white"
           />
         </Button3d>
       </Flex>

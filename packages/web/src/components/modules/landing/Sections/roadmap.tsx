@@ -2,6 +2,7 @@ import Slider from 'react-slick';
 import { useCallback, useRef } from 'react';
 import { Text, Title, Button3d } from '@negentra/src/components';
 import { Container, Flex, Image } from '@chakra-ui/react';
+import { ArrowLeftIcon, ArrowRightIcon } from '@heroicons/react/solid';
 
 import roadmap from '@negentra/public/json/roadmap.json';
 
@@ -58,11 +59,10 @@ export function Roadmap() {
           padding="16px 0px"
           onClick={() => onPrev()}
         >
-          <Image
-            w="28px"
-            src="/svg/lg-arrow-left.svg"
+          <ArrowLeftIcon
+            width="28px"
+            color="#FF6F00"
             className="mx-auto"
-            loading="lazy"
           />
         </Button3d>
   
@@ -77,11 +77,10 @@ export function Roadmap() {
           padding="16px 0px"
           onClick={() => onNext()}
         >
-          <Image
-            w="28px"
-            src="/svg/lg-arrow-right.svg"
+          <ArrowRightIcon
+            width="28px"
+            color="#FF6F00"
             className="mx-auto"
-            loading="lazy"
           />
         </Button3d>
       </div>
