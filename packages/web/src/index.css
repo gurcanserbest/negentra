@@ -38,7 +38,7 @@ body {
   background-color: white !important;
   transform: translateY(-6px) !important;
   background-repeat: no-repeat !important;
-  background-position: center !important;
+  background-position: -5px -5px !important;
   background-image: url('/svg/lg-arrow-left.svg') !important;
 }
 
@@ -53,7 +53,7 @@ body {
   background-color: white !important;
   transform: translateY(-6px) !important;
   background-repeat: no-repeat !important;
-  background-position: center !important;
+  background-position: -30px -5px !important;
   background-image: url('/svg/lg-arrow-right.svg') !important;
 }
 

@@ -15,7 +15,7 @@ export function Footer() {
       >
         <Grid
           templateColumns="585px auto"
-          className="xl:grid"
+          className="flex xl:grid"
         >
           <Flex
             w="100%"

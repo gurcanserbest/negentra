@@ -6,8 +6,8 @@ export function FollowUp() {
     <Container
       id="followup"
       maxWidth="1410px"
-      marginBottom="200px"
-      className="flex items-center flex-col mb-[142px] px-0"
+      overflow="hidden"
+      className="flex items-center flex-col px-0 pb-[180px]"
     >
       <Flex
         w="100%"

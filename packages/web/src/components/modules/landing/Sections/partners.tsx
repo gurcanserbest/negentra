@@ -1,6 +1,7 @@
 import Slider from 'react-slick';
 import { Title } from '@negentra/src/components';
 import { Container, Flex, Image } from '@chakra-ui/react';
+import { ArrowLeftIcon, ArrowRightIcon } from '@heroicons/react/solid';
 
 import partners from '@negentra/public/json/partners.json';
 

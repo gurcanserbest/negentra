@@ -2,6 +2,8 @@ import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router';
 import { Container, Grid, Flex, Image } from '@chakra-ui/react';
 import { Button3d, Button, Title, Text } from '@negentra/src/components';
+import { ShoppingBagIcon } from '@heroicons/react/solid';
+
 
 export function Hero() {
   const navigate = useNavigate();
@@ -85,10 +87,10 @@ export function Hero() {
                       background="white"
                       justifyContent="center"
                     >
-                      <Image
-                        h="16px"
-                        w="16px"
-                        src="/svg/market.svg"
+                      <ShoppingBagIcon
+                        width="16px"
+                        height="16px"
+                        color="#8E44AD"
                       />
                     </Flex>
       

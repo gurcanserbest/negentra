@@ -4,6 +4,7 @@ import { useContract } from '@negentra/src/stores/contract';
 import { Title, Text, Button3d, If } from '@negentra/src/components';
 import { Container, Grid, Flex, Image, Box } from '@chakra-ui/react';
 import { useNearUser, useNearWallet } from 'react-near';
+import { ShoppingBagIcon } from '@heroicons/react/solid';
 
 import contract from '@negentra/src/env/contract.json';
 
@@ -181,10 +182,10 @@ export function MintHero() {
                           alignItems="center"
                           justifyContent="center"
                         >
-                          <Image
-                            src="/svg/market.svg"
-                            h="16px"
-                            w="16px"
+                          <ShoppingBagIcon
+                            width="16px"
+                            height="16px"
+                            color="#8E44AD"
                           />
                         </Flex>
 

@@ -102,8 +102,7 @@ export function Tokenomics () {
 
         <Flex
           w="1170px"
-          minH="564px"
-          maxH="564px"
+          height="564px"
           overflow="auto"
           direction="column"
           boxSizing='border-box'
@@ -111,11 +110,10 @@ export function Tokenomics () {
         >
           <Flex
             w="1170px"
-            maxH="525px"
+            height="100%"
             overflow="auto"
             direction="column"
             boxSizing='border-box'
-            justifyContent="space-between"
             className="pt-[58px] pl-[51px] pr-[68px] space-y-[20px]"
           >
             { tokenomics.map(({ label, percentage, tge, cliff, vesting }, i) => (
