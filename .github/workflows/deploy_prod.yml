@@ -1,0 +1,38 @@
+name: Build & deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.x
+
+      - name: Install Yarn Globally
+        run: npm install -g yarn
+      
+      - name: Installing Dependencies
+        run: yarn
+
+      - name: Build
+        run: yarn web:build
+
+      - name: Deploy
+        run: aws s3 sync ./packages/web/dist s3://sociapool-landing --delete
+
+      - name: Clear Cache
+        run: aws cloudfront create-invalidation --distribution-id E2Z7RAB1FBA8FL --paths "/*"

@@ -10,6 +10,8 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { Toaster } from 'react-hot-toast';
 
+import contract from '@negentra/src/env/contract.json';
+
 const theme = extendTheme({
   fonts: {
     body: `'Open Sans', sans-serif`,
@@ -22,7 +24,7 @@ window.Buffer = window.Buffer || Buffer;
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <ChakraProvider theme={theme}>
-      <ProviderNear environment={NearEnvironment.TestNet}>
+      <ProviderNear environment={contract.environment == "mainnet" ? NearEnvironment.MainNet : NearEnvironment.TestNet}>
         <Router />
         <Toaster
           position="bottom-left"

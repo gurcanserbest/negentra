@@ -62,7 +62,7 @@ export function Hero() {
                   maxWidth="669px"
                   className="text-center md:text-left"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus nisi a quam accumsan dapibus. Curabitur turpis massa, pretium id risus sed, gravida tincidunt tellus.
+                  Loren ipsunn dolor sit amet, consectetur adipiscing elit. Mauris rhoncus nisi a quam accumsan dapibus. Curabitur turpis massa, pretium id risus sed, gravida tincidunt tellus.
                 </Text>
               </Flex>
 
