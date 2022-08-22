@@ -10,6 +10,7 @@ export function Trailer() {
       alignItems="center"
       marginBottom="180px"
       justifyContent="center"
+      className="max-w-[1000px] overflow-hidden"
     >
       <div
         className="z-[1] relative w-full max-w-[1280px] aspect-video overflow-hidden"
@@ -17,9 +18,9 @@ export function Trailer() {
         <div
           className="scale-[.9] w-full max-w-[1280px] overflow-hidden aspect-video overflow-hidden absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
         >
-          <iframe 
+          <iframe
             id="ytplayer"
-            width="100%" 
+            width="100%"
             height="100%"
             loading="lazy"
             frameBorder="0"

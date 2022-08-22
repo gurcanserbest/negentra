@@ -38,9 +38,9 @@ export function Advisors() {
         justifyContent="center"
         className="grid-cols-[repeat(auto-fill,242px)]"
       >
-        { advisors && advisors.map((person: object, i: number) => (
+        {advisors && advisors.map((person: object, i: number) => (
           <PersonCard
-            { ...person }
+            {...person}
             key={'neg-advisors-card' + i}
           />
         ))}

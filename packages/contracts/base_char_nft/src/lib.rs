@@ -132,11 +132,14 @@ impl Contract {
         let tokens_to_mint = self.nft_packs.get(&user_type).unwrap();
         let mut token_counter = self.token_count;
         for item in tokens_to_mint.into_iter() {
-            self.internal_mint_without_refund(token_counter.to_string(), minter.clone(), Some(item));
+            self.internal_mint_without_refund(
+                token_counter.to_string(),
+                minter.clone(),
+                Some(item),
+            );
             token_counter += 1;
         }
-        let minted_vec: Vec<String> = 
-            (self.token_count..token_counter)
+        let minted_vec: Vec<String> = (self.token_count..token_counter)
             .collect::<Vec<u128>>()
             .iter()
             .map(|v| v.to_string())
@@ -156,7 +159,6 @@ impl Contract {
 }
 
 impl Contract {
-
     pub fn internal_mint_without_refund(
         &mut self,
         token_id: TokenId,
@@ -214,12 +216,12 @@ impl Contract {
     pub fn refund_deposit(&mut self, storage_used: u64, account_id: AccountId) {
         let required_cost = env::storage_byte_cost() * storage_used as u128;
         let attached_deposit = env::attached_deposit();
-    
+
         require!(
             required_cost <= attached_deposit,
             format!("Must attach {} yoctoNEAR to cover storage", required_cost)
         );
-    
+
         let refund = attached_deposit - required_cost;
         if refund > 1 {
             Promise::new(account_id).transfer(refund);
@@ -237,3 +239,13 @@ impl NonFungibleTokenMetadataProvider for Contract {
         self.metadata.get().unwrap()
     }
 }
+
+// ///near call join_sociapol.near new '{"owner_id": "join_sociapol.near","metadata": { "spec": "nft-1.0.0","name": "Sociapol character","symbol": "SPCHAR", "icon": null, "reference": null, "reference_hash": null} }' --accountId join_sociapol.near
+// near call join_sociapol.near add_to_collection '{"collection": {"type":"Male"},"metadata": {"title": "Sociapol male character","description": "Sociapol male character with special NEAR t-shirt","media":"https://gateway.pinata.cloud/ipfs/QmRGSq4NHrKrC9xGeW2SnAi4TnHvm2ezLbawCbySCveBZT/negentra_boy.jpeg"} }' --accountId join_sociapol.near
+
+// near call join_sociapol.near add_to_collection '{"collection": {"type":"Female"},"metadata": {"title": "Sociapol female character","description": "Sociapol female character with special NEAR t-shirt","media":"https://gateway.pinata.cloud/ipfs/QmRGSq4NHrKrC9xGeW2SnAi4TnHvm2ezLbawCbySCveBZT/negentra_girl.jpeg"} }' --accountId join_sociapol.near
+
+// near call join_sociapol.near add_to_collection '{"collection": "{"type":"Female"}","metadata": {"title": "Sociapol female character","description": "Sociapols female character with special NEAR t-shirt","media":"https://gateway.pinata.cloud/ipfs/QmRGSq4NHrKrC9xGeW2SnAi4TnHvm2ezLbawCbySCveBZT/negentra_girl.jpeg"}, }' --accountId join_sociapol.near
+// ///
+
+// near call join_sociapol.near nft_mint '{"user_type": {"type":"Male"} }' --accountId pedestri.near --deposit 1

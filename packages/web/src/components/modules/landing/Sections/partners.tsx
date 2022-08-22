@@ -68,7 +68,7 @@ export function Partners() {
         >
           {partners && partners.map((logo: string, i: number) => (
             <Container
-            paddingY="12px"
+              paddingY="12px"
               key={'partners-item' + i}
               className="flex items-center justify-center"
             >

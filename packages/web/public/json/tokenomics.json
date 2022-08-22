@@ -1,65 +1,65 @@
 [
   {
-    "label": "Pre-seed",
-    "percentage": "6.75%",
+    "label": "Private Sale",
+    "percentage": "5%",
+    "tge": "-",
+    "cliff": "3 Months",
+    "vesting": "9 Months DLV"
+  },
+  {
+    "label": "Public Sale",
+    "percentage": "9%",
+    "tge": "10%",
+    "cliff": "3 Months",
+    "vesting": "6 Months MV"
+  },
+  {
+    "label": "Liquidity",
+    "percentage": "15%",
+    "tge": "10%",
+    "cliff": "0",
+    "vesting": "9 Months DLV"
+  },
+  {
+    "label": "Play&Earn Rewards",
+    "percentage": "30%",
+    "tge": "-",
+    "cliff": "-",
+    "vesting": "48 Months DLV (estimated)"
+  },
+  {
+    "label": "Team and Founders",
+    "percentage": "10%",
     "tge": "-",
     "cliff": "9 Months",
     "vesting": "24 Months DLV"
   },
   {
-    "label": "Seed",
-    "percentage": "5.50%",
-    "tge": "5%",
-    "cliff": "4.5 Months",
+    "label": "Development",
+    "percentage": "10%",
+    "tge": "-",
+    "cliff": "-",
+    "vesting": "36 Months DLV"
+  },
+  {
+    "label": "Marketing",
+    "percentage": "14%",
+    "tge": "-",
+    "cliff": "-",
+    "vesting": "36 Months DLV"
+  },
+  {
+    "label": "Strategic Partnerts",
+    "percentage": "5%",
+    "tge": "-",
+    "cliff": "3 Months",
     "vesting": "15 Months DLV"
   },
   {
-    "label": "Private",
-    "percentage": "7.75%",
-    "tge": "5%",
-    "cliff": "4.5 Months",
-    "vesting": "15 Months DLV"
-  },
-  {
-    "label": "Public Token Sale",
-    "percentage": "7.75%",
-    "tge": "5%",
-    "cliff": "4.5 Months",
-    "vesting": "15 Months DLV"
-  },
-  {
-    "label": "Team and Advisors",
-    "percentage": "7.75%",
-    "tge": "5%",
-    "cliff": "4.5 Months",
-    "vesting": "15 Months DLV"
-  },
-  {
-    "label": "LP",
-    "percentage": "7.75%",
-    "tge": "5%",
-    "cliff": "4.5 Months",
-    "vesting": "15 Months DLV"
-  },
-  {
-    "label": "Foundation",
-    "percentage": "7.75%",
-    "tge": "5%",
-    "cliff": "4.5 Months",
-    "vesting": "15 Months DLV"
-  },
-  {
-    "label": "Community and Marketing",
-    "percentage": "7.75%",
-    "tge": "5%",
-    "cliff": "4.5 Months",
-    "vesting": "15 Months DLV"
-  },
-  {
-    "label": "Rewards and Staking",
-    "percentage": "7.75%",
-    "tge": "5%",
-    "cliff": "4.5 Months",
-    "vesting": "15 Months DLV"
+    "label": "Advisors",
+    "percentage": "2%",
+    "tge": "-",
+    "cliff": "9 Months",
+    "vesting": "18 Months DLV"
   }
 ]

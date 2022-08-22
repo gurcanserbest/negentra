@@ -2,61 +2,66 @@
   {
     "role": "CEO",
     "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "image": "/images/team/gurcannew.png"
   },
   {
-    "role": "CEO",
-    "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "role": "Project Manager",
+    "name": "Saygin Kolainli",
+    "image": "/images/team/saygin.png"
   },
   {
-    "role": "CEO",
-    "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "role": "CMO",
+    "name": "Ayca Zaman",
+    "image": "/images/team/aycanew.png"
   },
   {
-    "role": "CEO",
-    "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "role": "Game Developer",
+    "name": "Dogukan Gozum",
+    "image": "/images/team/dogukan.png"
   },
   {
-    "role": "CEO",
-    "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "role": "Game Developer",
+    "name": "Efekan Tugan ",
+    "image": "/images/team/efekannew.png"
   },
   {
-    "role": "CEO",
-    "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "role": "UI/UX Designer",
+    "name": "Irem Toraman",
+    "image": "/images/team/irem.png"
   },
   {
-    "role": "CEO",
-    "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "role": "3d Artist",
+    "name": "Esen Caluk",
+    "image": "/images/team/esen.png"
   },
   {
-    "role": "CEO",
-    "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "role": "3d Artist",
+    "name": "Mert Bostankolu",
+    "image": "/images/team/mert.png"
   },
   {
-    "role": "CEO",
-    "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "role": "3d Artist",
+    "name": "Berkay Aslan",
+    "image": "/images/team/berkay.png"
   },
   {
-    "role": "CEO",
-    "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "role": "Sound Engineer",
+    "name": "Serdar Celik",
+    "image": "/images/team/serdar.png"
   },
   {
-    "role": "CEO",
-    "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "role": "Community Manager",
+    "name": "Tayfun Turan",
+    "image": "/images/team/tayfun.png"
   },
   {
-    "role": "CEO",
-    "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "role": "3d Artist",
+    "name": "Onur Unlu",
+    "image": "/images/team/onur.png"
+  },
+  {
+    "role": "Ilustrator",
+    "name": "Norman Suarno",
+    "image": "/images/team/normannew.png"
   }
 ]

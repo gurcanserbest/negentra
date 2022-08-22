@@ -29,7 +29,7 @@ export function Team() {
         <Text
           textAlign="center"
         >
-          Sociapol’e üye olduğunda ilk yapacağın şey karakterini yaratmak olacak. Karakterinin giyeceği bütün kıyafet ve aksesuarlar ise birer NFT olarak tasarlandı – dolayısıyla sana ve karakterine ait olacak. Bu NFT’leri satabilir, takas edebilir, yılın belirli dönemlerine özel çıkaracağımız koleksiyonlardan satın alabilirsin. Karakterinin nasıl görüneceği tamamen sana bağlı, ve sana ait!
+          The Sociapol team consists of experienced game designers, VR and AR specialists and blockchain enthusiasts that are working tirelessly to bring you the most enjoyable user experience.
         </Text>
       </Flex>
 
@@ -41,7 +41,7 @@ export function Team() {
       >
         {team && team.map((person, i) => (
           <PersonCard
-            { ...person }
+            {...person}
             key={'neg-team-card' + i}
           />
         ))}

@@ -21,7 +21,7 @@ export function Play() {
       />
 
       <Tabs
-        w="100vw"
+        w="100%"
         maxW="1331px"
         align="center"
         variant="unstyled"
@@ -57,12 +57,12 @@ export function Play() {
                 borderRadius="12px"
                 _selected={{ bg: '#9959B4', borderBottom: 'solid 5px #71368A', color: 'white' }}
               >
-                  <Text
-                    color="currentColor"
-                    fontFamily="Titan One"
-                  >
-                    { button }
-                  </Text>
+                <Text
+                  color="currentColor"
+                  fontFamily="Titan One"
+                >
+                  {button}
+                </Text>
               </Tab>
             </Flex>
           ))}
@@ -84,7 +84,7 @@ export function Play() {
                     lineHeight="35px"
                     fontWeight="600"
                   >
-                    { subtitle }
+                    {subtitle}
                   </Text>
                 </Flex>
 
@@ -98,7 +98,7 @@ export function Play() {
                     className="text-[60px] leading-[1] sm:text-[80px] sm:leading-[94px]"
                     textShadow="0px 5px 0px #DDDDDD"
                   >
-                    { title }
+                    {title}
                   </Title>
                 </Flex>
 
@@ -113,7 +113,7 @@ export function Play() {
                       color="#FFFFFF"
                       key={'neg-play-desc' + i}
                     >
-                      { text }
+                      {text}
                     </Text>
                   ))}
                 </Flex>

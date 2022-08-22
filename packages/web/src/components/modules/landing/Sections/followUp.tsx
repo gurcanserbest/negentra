@@ -39,7 +39,7 @@ export function FollowUp() {
           <Text
             color="white"
           >
-            Geliştirme süreçlerinden sonra yayına alınacak olan Sociapol hakkında daha fazla bilgiye erişebilmek ve takipte kalabilmek için Discord sunucumuza katıl. Discord üzerinde yaptığımız geliştirmelere değiniyor, topluluğumuzu destekliyoruz.
+            In order to keep up with the development process and follow Sociapol, come and join our Discord server. We share all news on our channel, as well as supporting our community.
           </Text>
         </Flex>
 

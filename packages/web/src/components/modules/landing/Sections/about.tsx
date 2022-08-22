@@ -29,7 +29,7 @@ export function About() {
               alignItems="center"
               justifyContent="center"
             >
-              { i > 0 && 
+              {i > 0 &&
                 <Flex
                   h="46px"
                   w="4px"
@@ -37,9 +37,9 @@ export function About() {
                   flexShrink="0"
                   background="#9959B4"
                   borderRadius="1.5px"
-                /> 
+                />
               }
-              
+
               <Tab
                 w="64px"
                 h="64px"
@@ -55,7 +55,7 @@ export function About() {
                   fontWeight="800"
                   color="currentColor"
                 >
-                  { i + 1 }
+                  {i + 1}
                 </Text>
               </Tab>
             </Flex>
@@ -85,20 +85,20 @@ export function About() {
                       lineHeight="94px"
                       className="text-center xl:text-left text-[60px] leading-[1] sm:text-[80px] sm:leading-[94px]"
                     >
-                      { title }
+                      {title}
                     </Title>
                   </Flex>
-      
+
                   <Flex
                     maxWidth="570px"
                     direction="column"
                     className="space-y-[21px] mx-auto xl:mx-0 text-center xl:text-left"
                   >
-                    { description?.map((text: string, i: number) => (
+                    {description?.map((text: string, i: number) => (
                       <Text
                         key={'neg-description' + i}
-                      > 
-                      { text }
+                      >
+                        {text}
                       </Text>
                     ))}
                   </Flex>

@@ -65,9 +65,9 @@ export function Roadmap() {
             className="mx-auto"
           />
         </Button3d>
-  
+
         <ul style={{ margin: "0px", height: '8px' }}> {dots} </ul>
-  
+
         <Button3d
           bg="#EEEEEE"
           color="white"
@@ -123,7 +123,7 @@ export function Roadmap() {
           {...settings}
           ref={slider as any}
         >
-          { roadmap && roadmap.map(({ title, description }, i) => (
+          {roadmap && roadmap.map(({ title, description }, i) => (
             <Container
               key={'neg-roadmap-item' + i}
               className="flex items-center justify-center h-[450px]"
@@ -148,7 +148,7 @@ export function Roadmap() {
                   fontFamily="Titan One"
                   className="neg-roadmap__title"
                 >
-                  { title }
+                  {title}
                 </Text>
 
                 <Text
@@ -158,7 +158,7 @@ export function Roadmap() {
                   textAlign="center"
                   className="neg-roadmap__text"
                 >
-                  { description }
+                  {description}
                 </Text>
               </Flex>
             </Container>
