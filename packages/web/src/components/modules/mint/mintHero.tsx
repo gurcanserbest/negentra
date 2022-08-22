@@ -36,6 +36,7 @@ export function MintHero() {
       <Container
         w="100vw"
         minH="100vh"
+        id="mint-hero"
         maxWidth="1920px"
         className="bg-[url('/images/hero-bg.png')] bg-[length:auto_auto] bg-[left_-20px_top_42px] bg-no-repeat"
       >
