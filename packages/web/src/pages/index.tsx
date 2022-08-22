@@ -23,7 +23,7 @@ export function Index() {
       <Tokenomics/>
       <Roadmap/>
       <Team/>
-      <Advisors/>
+      {/* <Advisors/> */}
       <Partners/>
       <FollowUp/>
     </main>

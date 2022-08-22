@@ -1,7 +1,9 @@
 import Slider from 'react-slick';
 import { useCallback, useRef } from 'react';
+import { useNavigate } from 'react-router';
 import { Text, Title, Button3d } from '@negentra/src/components';
 import { Container, Image, Flex } from '@chakra-ui/react';
+import { HashLink } from 'react-router-hash-link';
 import { ChevronDoubleRightIcon, ChevronDoubleLeftIcon, ShoppingBagIcon } from '@heroicons/react/solid';
 
 import toys from '@negentra/public/json/toys.json';
@@ -34,6 +36,8 @@ const settings = {
 };
 
 export function Toys() {
+  const navigate = useNavigate();
+
   const slider = useRef<Slider>();
 
   const onNext = useCallback(() => {
@@ -122,9 +126,8 @@ export function Toys() {
             color="white"
           />
         </Button3d>
-
-        <Flex
-        // transform="translateY(6px)"
+        <HashLink
+          to="/mint#mint-hero"
         >
           <Button3d
             flex="1"
@@ -161,7 +164,7 @@ export function Toys() {
               </Text>
             </Flex>
           </Button3d>
-        </Flex>
+        </HashLink>
 
         <Button3d
           onClick={() => onNext()}
