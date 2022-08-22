@@ -49,7 +49,7 @@ export function Toys() {
       id="toys"
       h="100%"
       w="100vw"
-      minHeight="100vh" 
+      minHeight="100vh"
       maxWidth="1920px"
       marginBottom="152px"
     >
@@ -74,7 +74,7 @@ export function Toys() {
           <Text
             textAlign="center"
           >
-            Sociapol’e üye olduğunda ilk yapacağın şey karakterini yaratmak olacak. Karakterinin giyeceği bütün kıyafet ve aksesuarlar ise birer NFT olarak tasarlandı – dolayısıyla sana ve karakterine ait olacak. Bu NFT’leri satabilir, takas edebilir, yılın belirli dönemlerine özel çıkaracağımız koleksiyonlardan satın alabilirsin. Karakterinin nasıl görüneceği tamamen sana bağlı, ve sana ait!
+            Your first action at Sociapol will be to create your character. Every piece of clothing and accessory your character will be wearing has been designed as an NFT, and will therefore belong to only you and your character. You can sell and trade these NFT’s, or purchase our seasonal special collections. The way your character will look depends entirely on, and belongs completely to you!
           </Text>
         </Flex>
       </Container>
@@ -122,9 +122,9 @@ export function Toys() {
             color="white"
           />
         </Button3d>
-        
+
         <Flex
-          // transform="translateY(6px)"
+        // transform="translateY(6px)"
         >
           <Button3d
             flex="1"

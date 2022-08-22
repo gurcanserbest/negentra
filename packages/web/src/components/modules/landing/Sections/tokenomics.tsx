@@ -36,7 +36,7 @@ const headers = [
   },
 ];
 
-export function Tokenomics () {
+export function Tokenomics() {
   return (
     <Container
       id="tokenomics"
@@ -65,7 +65,7 @@ export function Tokenomics () {
           <Text
             textAlign="center"
           >
-            Sociapol’e üye olduğunda ilk yapacağın şey karakterini yaratmak olacak. Karakterinin giyeceği bütün kıyafet ve aksesuarlar ise birer NFT olarak tasarlandı – dolayısıyla sana ve karakterine ait olacak. Bu NFT’leri satabilir, takas edebilir, yılın belirli dönemlerine özel çıkaracağımız koleksiyonlardan satın alabilirsin. Karakterinin nasıl görüneceği tamamen sana bağlı, ve sana ait!
+            We have worked with world renowned specialists to create a tokenomics scheme that will ensure our native token SPOL will retain its value and continue to reward users for their actions.
           </Text>
         </Flex>
       </Flex>
@@ -94,7 +94,7 @@ export function Tokenomics () {
                 fontFamily="Titan One"
                 textAlign={textAlign as ResponsiveValue<CSS.Property.TextAlign>}
               >
-                { label }
+                {label}
               </Text>
             </GridItem>
           ))}
@@ -116,7 +116,7 @@ export function Tokenomics () {
             boxSizing='border-box'
             className="pt-[58px] pl-[51px] pr-[68px] space-y-[20px]"
           >
-            { tokenomics.map(({ label, percentage, tge, cliff, vesting }, i) => (
+            {tokenomics.map(({ label, percentage, tge, cliff, vesting }, i) => (
               <Grid
                 w="100%"
                 templateColumns='repeat(12, 1fr)'
@@ -130,7 +130,7 @@ export function Tokenomics () {
                     fontSize="22px"
                     fontWeight="700"
                   >
-                    { label }
+                    {label}
                   </Text>
                 </GridItem>
 
@@ -143,7 +143,7 @@ export function Tokenomics () {
                     fontWeight="700"
                     textAlign="center"
                   >
-                    { percentage }
+                    {percentage}
                   </Text>
                 </GridItem>
 
@@ -156,7 +156,7 @@ export function Tokenomics () {
                     fontWeight="700"
                     textAlign="center"
                   >
-                    { tge }
+                    {tge}
                   </Text>
                 </GridItem>
 
@@ -169,7 +169,7 @@ export function Tokenomics () {
                     fontWeight="700"
                     textAlign="center"
                   >
-                    { cliff }
+                    {cliff}
                   </Text>
                 </GridItem>
 
@@ -182,7 +182,7 @@ export function Tokenomics () {
                     fontWeight="700"
                     textAlign="center"
                   >
-                    { vesting }
+                    {vesting}
                   </Text>
                 </GridItem>
               </Grid>
@@ -251,7 +251,7 @@ export function Tokenomics () {
           <Text
             fontSize="16px"
           >
-            Total supply of HeC is capped at 100,000,000.
+            Total supply of $SPOL is capped at 1.000.000.000
           </Text>
         </Flex>
       </Flex>

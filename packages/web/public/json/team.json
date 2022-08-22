@@ -2,61 +2,66 @@
   {
     "role": "CEO",
     "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "image": "/images/team/gurcannew.png"
   },
   {
-    "role": "CEO",
-    "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "role": "Project Manager",
+    "name": "Saygin Kolainli",
+    "image": "/images/team/saygin.png"
   },
   {
-    "role": "CEO",
+    "role": "CMO",
     "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "image": "/images/team/aycanew.png"
   },
   {
-    "role": "CEO",
+    "role": "Game Developer",
     "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "image": "/images/team/dogukan.png"
   },
   {
-    "role": "CEO",
+    "role": "Game Developer",
     "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "image": "/images/team/efekannew.png"
   },
   {
-    "role": "CEO",
+    "role": "Graphic Designer",
     "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "image": "/images/team/irem.png"
   },
   {
-    "role": "CEO",
-    "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "role": "3d Artist",
+    "name": "3d Artist",
+    "image": "/images/team/esen.png"
   },
   {
-    "role": "CEO",
+    "role": "3d Artist",
     "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "image": "/images/team/mert.png"
   },
   {
-    "role": "CEO",
-    "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "role": "3d Artist",
+    "name": "Berkay Aslan",
+    "image": "/images/team/berkay.png"
   },
   {
-    "role": "CEO",
+    "role": "Sound Engineer",
     "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "image": "/images/team/serdar.png"
   },
   {
-    "role": "CEO",
-    "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "role": "Community Manager",
+    "name": "Tayfun Turan",
+    "image": "/images/team/tayfun.png"
   },
   {
-    "role": "CEO",
+    "role": "3d Artist",
     "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "image": "/images/team/onur.png"
+  },
+  {
+    "role": "Ilustrator",
+    "name": "Norman Suarno",
+    "image": "/images/team/normannew.png"
   }
 ]

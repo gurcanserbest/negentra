@@ -47,7 +47,7 @@ export function Hero() {
                   marginBottom="-8px"
                   className="text-center md:text-left"
                 >
-                  FUNNIES, PARTIES, FRIENDS.
+                  FUN, PARTIES, FRIENDS
                 </Text>
 
                 <Title
@@ -62,7 +62,7 @@ export function Hero() {
                   maxWidth="669px"
                   className="text-center md:text-left"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus nisi a quam accumsan dapibus. Curabitur turpis massa, pretium id risus sed, gravida tincidunt tellus.
+                  You can find all the socializing you expect from a gaming platform at Sociapol. Maximize the fun you are having with your friends – or the friends you will find here! What is more, it is all for free and comes together with the world you create for yourself.
                 </Text>
               </Flex>
 
@@ -93,7 +93,7 @@ export function Hero() {
                         color="#8E44AD"
                       />
                     </Flex>
-      
+
                     <Text
                       fontSize="18px"
                       color="white"
