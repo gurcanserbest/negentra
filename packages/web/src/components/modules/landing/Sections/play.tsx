@@ -21,7 +21,7 @@ export function Play() {
       />
 
       <Tabs
-        w="100vw"
+        w="100%"
         maxW="1331px"
         align="center"
         variant="unstyled"

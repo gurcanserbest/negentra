@@ -41,7 +41,7 @@ export function Tokenomics () {
     <Container
       id="tokenomics"
       h="100%"
-      w="100vw"
+      w="100%"
       maxWidth="1214px"
       className="flex items-center flex-col mb-[142px]"
     >
@@ -72,7 +72,7 @@ export function Tokenomics () {
 
       <Flex
         w="100%"
-        maxW="100vw"
+        maxW="100%"
         overflow="auto"
         direction="column"
       >

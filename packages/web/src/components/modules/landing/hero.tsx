@@ -16,7 +16,7 @@ export function Hero() {
       transition={{ duration: 0.55 }}
     >
       <Container
-        w="100vw"
+        w="100%"
         minH="100vh"
         maxWidth="1920px"
         className="bg-[url('/images/hero-bg.png')] bg-[length:auto_auto] bg-[left_-20px_top_42px] bg-no-repeat"
