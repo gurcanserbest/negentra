@@ -5,6 +5,7 @@ import { Text, Button3d } from '@negentra/src/components';
 import { useCallback, useMemo, useEffect } from 'react';
 import { useNearWallet, useNearUser } from 'react-near';
 import { useContract } from '@negentra/src/stores/contract';
+import { HashLink } from 'react-router-hash-link';
 
 import contract from '@negentra/src/env/contract.json';
 
@@ -69,9 +70,8 @@ export function Header() {
               <Flex
                 key={'header-menu-item' + i}
               >
-                <Link
-                  isExternal={! menu.path?.startsWith('#')}
-                  href={menu.path}
+                <HashLink
+                  to={'/'+ menu.path}
                   _hover={{
                     textDecoration: 'unset',
                   }}
@@ -85,7 +85,7 @@ export function Header() {
                   >
                     { menu.name }
                   </Text>
-                </Link>
+                </HashLink>
               </Flex>
             )}
 
