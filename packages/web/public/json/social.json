@@ -1,10 +1,6 @@
 [
   {
     "path": "#",
-    "icon": "facebook"
-  },
-  {
-    "path": "#",
     "icon": "twitter"
   },
   {
@@ -14,5 +10,9 @@
   {
     "path": "#",
     "icon": "discord"
+  },
+  {
+    "path": "#",
+    "icon": "telegram"
   }
 ]
