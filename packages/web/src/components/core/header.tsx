@@ -33,7 +33,7 @@ export function Header() {
     await wallet?.requestSignIn();
     await user.connect();
   }, [wallet]);
-  
+
   const logout = useCallback(async () => {
     await wallet?.signOut();
     await user.disconnect();
@@ -42,7 +42,7 @@ export function Header() {
   const walletConnected = useMemo(() => !!wallet?.isSignedIn(), [wallet]);
 
   return (
-    <div className="w-screen flex items-center justify-center absolute">
+    <div className="w-full flex items-center justify-center absolute">
       <nav
         className="w-full max-w-[1410px] h-[92px] mx-auto] flex items-center justify-center space-x-[18px]"
       >
@@ -58,7 +58,7 @@ export function Header() {
             flexShrink="0"
             className="mx-auto lg:mx-0"
             cursor="pointer"
-            onClick={() => {navigate('/')}}
+            onClick={() => { navigate('/') }}
           >
             <Image src="/svg/logo.svg" h='52px' />
           </Flex>
@@ -71,7 +71,7 @@ export function Header() {
                 key={'header-menu-item' + i}
               >
                 <HashLink
-                  to={'/'+ menu.path}
+                  to={'/' + menu.path}
                   _hover={{
                     textDecoration: 'unset',
                   }}
@@ -83,7 +83,7 @@ export function Header() {
                     textTransform="uppercase"
                     _hover={{ color: '#EEEEEE' }}
                   >
-                    { menu.name }
+                    {menu.name}
                   </Text>
                 </HashLink>
               </Flex>
@@ -94,52 +94,52 @@ export function Header() {
             >
               {
                 walletConnected
-                ? (
-                  <Button3d
-                    bg="#EEEEEE"
-                    color="white"
-                    minHeight="auto"
-                    padding="8px 18px"
-                    borderRadius="12px"
-                    onClick={() => logout()}
-                  >
-                    <Flex>
-                      <Text
-                        color="#FF6F00"
-                        fontSize="14px"
-                        marginRight="12px"
-                        fontFamily="Titan One"
-                      >
-                        { user.address?.split('.').at(0) }...
-                      </Text>
+                  ? (
+                    <Button3d
+                      bg="#EEEEEE"
+                      color="white"
+                      minHeight="auto"
+                      padding="8px 18px"
+                      borderRadius="12px"
+                      onClick={() => logout()}
+                    >
+                      <Flex>
+                        <Text
+                          color="#FF6F00"
+                          fontSize="14px"
+                          marginRight="12px"
+                          fontFamily="Titan One"
+                        >
+                          {user.address?.split('.').at(0)}...
+                        </Text>
 
-                      <Image src="/svg/logout.svg" h='24px' />
-                    </Flex>
-                  </Button3d>
-                )
-                : (
-                  <Button3d
-                    bg="#EEEEEE"
-                    color="white"
-                    minHeight="auto"
-                    padding="8px 18px"
-                    borderRadius="12px"
-                    onClick={() => login()}
-                  >
-                    <Flex>
-                      <Text
-                        color="#FF6F00"
-                        fontSize="14px"
-                        marginRight="12px"
-                        fontFamily="Titan One"
-                      >
-                        Connect Wallet
-                      </Text>
+                        <Image src="/svg/logout.svg" h='24px' />
+                      </Flex>
+                    </Button3d>
+                  )
+                  : (
+                    <Button3d
+                      bg="#EEEEEE"
+                      color="white"
+                      minHeight="auto"
+                      padding="8px 18px"
+                      borderRadius="12px"
+                      onClick={() => login()}
+                    >
+                      <Flex>
+                        <Text
+                          color="#FF6F00"
+                          fontSize="14px"
+                          marginRight="12px"
+                          fontFamily="Titan One"
+                        >
+                          Connect Wallet
+                        </Text>
 
-                      <Image src="/svg/wallet.svg" h='24px' />
-                    </Flex>
-                  </Button3d>
-                )
+                        <Image src="/svg/wallet.svg" h='24px' />
+                      </Flex>
+                    </Button3d>
+                  )
               }
             </Flex>
           </Flex>
