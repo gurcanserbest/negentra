@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router';
 import { WalletConnection } from 'near-api-js';
-import { Image, Flex, Link } from '@chakra-ui/react';
+import { Image, Flex } from '@chakra-ui/react';
 import { Text, Button3d } from '@negentra/src/components';
 import { useCallback, useMemo, useEffect } from 'react';
 import { useNearWallet, useNearUser } from 'react-near';
