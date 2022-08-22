@@ -1,18 +1,14 @@
 [
   {
-    "path": "#",
+    "path": "https://twitter.com/sociapol",
     "icon": "twitter"
   },
   {
-    "path": "#",
+    "path": "https://www.instagram.com/sociapoll/",
     "icon": "instagram"
   },
   {
-    "path": "#",
+    "path": "https://discord.gg/FkKaPQMR2w",
     "icon": "discord"
-  },
-  {
-    "path": "#",
-    "icon": "telegram"
   }
 ]
