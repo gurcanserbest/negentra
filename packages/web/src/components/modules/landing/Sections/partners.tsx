@@ -83,8 +83,7 @@ export function Partners() {
               >
                 <Image
                   src={logo}
-                  // h="52px"
-                  maxWidth="140px"
+                  maxWidth="190px"
                   w="auto"
                   loading="lazy"
                 />
