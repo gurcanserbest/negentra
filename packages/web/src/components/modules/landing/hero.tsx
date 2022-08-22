@@ -114,6 +114,9 @@ export function Hero() {
                   border="1px solid #979797"
                   position="relative"
                   top="-3px"
+                  onClick={() => {
+                    window.location.href = "https://drive.google.com/file/d/1u8zao8tXPYNxkekVG1SYGdbpC-Uf5tsD/view";
+                  }}
                   _active={{ background: '#333333', color: 'white' }}
                 >
                   <Flex
