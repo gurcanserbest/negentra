@@ -75,6 +75,7 @@ export function Partners() {
               <Flex
                 h="196px"
                 w="100%"
+                px="24px"
                 background="white"
                 borderRadius="19px"
                 alignItems="center"
@@ -83,6 +84,7 @@ export function Partners() {
                 <Image
                   src={logo}
                   h="52px"
+                  w="auto"
                   loading="lazy"
                 />
               </Flex>

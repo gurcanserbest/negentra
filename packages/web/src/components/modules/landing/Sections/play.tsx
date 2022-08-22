@@ -68,14 +68,19 @@ export function Play() {
           ))}
         </TabList>
 
-        <TabPanels>
+        <TabPanels
+          as="div"
+          className="h-full"
+        >
           {items && items.map(({ title, subtitle, description }, i) => (
             <TabPanel
               key={'neg-play-panel-' + i}
+              className="flex-grow-1 h-full"
             >
               <Flex
                 align="center"
                 direction="column"
+                className="flex-grow"
               >
                 <Flex>
                   <Text

@@ -1,7 +1,10 @@
+import { useNavigate } from 'react-router';
 import { Container, Flex, Image } from '@chakra-ui/react';
 import { Button3d, Text, Title } from '@negentra/src/components';
 
 export function FollowUp() {
+  const navigate = useNavigate();
+
   return (
     <Container
       id="followup"
@@ -47,6 +50,9 @@ export function FollowUp() {
           <Button3d
             bg="#EEEEEE"
             color="white"
+            onClick={() => {
+              window.location.href = "https://discord.gg/FkKaPQMR2w";
+            }}
           >
             <Flex
               alignItems="center"
