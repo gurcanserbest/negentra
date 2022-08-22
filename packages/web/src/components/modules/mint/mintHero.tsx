@@ -34,7 +34,7 @@ export function MintHero() {
       transition={{ duration: 0.55 }}
     >
       <Container
-        w="100vw"
+        w="100%"
         minH="100vh"
         id="mint-hero"
         maxWidth="1920px"

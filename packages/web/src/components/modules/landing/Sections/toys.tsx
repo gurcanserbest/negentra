@@ -52,8 +52,13 @@ export function Toys() {
     <Container
       id="toys"
       h="100%"
+<<<<<<< HEAD
       w="100vw"
       minHeight="100vh"
+=======
+      w="100%"
+      minHeight="100vh" 
+>>>>>>> 904b16e0cf303854ea8acfc4bf563ae9b7b859a4
       maxWidth="1920px"
       marginBottom="152px"
     >
