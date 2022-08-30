@@ -142,6 +142,7 @@ export function Roadmap() {
               >
                 <Text
                   fontSize="30px"
+		  whiteSpace={'pre-line'}
                   textAlign="center"
                   color="currentColor"
                   marginBottom="18px"
