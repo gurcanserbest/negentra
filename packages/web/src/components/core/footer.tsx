@@ -25,7 +25,6 @@ export function Footer () {
               {menuItems.map((menu, i) => (
                 <Flex key={'footer-menu-item' + i}>
                   <Link
-                    isExternal
                     href={menu.path}
                     _hover={{
                       textDecoration: 'unset'
