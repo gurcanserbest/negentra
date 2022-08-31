@@ -1,26 +1,30 @@
 [
   {
     "name": "Sociapol",
-    "path": "#sociapol"
+    "path": "/#sociapol"
   },
   {
     "name": "NFT",
-    "path": "#toys"
+    "path": "/#toys"
   },
   {
     "name": "SPOL",
-    "path": "#tokenomics"
+    "path": "/#tokenomics"
   },
   {
     "name": "Roadmap",
-    "path": "#roadmap"
+    "path": "/#roadmap"
   },
   {
     "name": "Crew",
-    "path": "#team"
+    "path": "/#team"
   },
   {
     "name": "Partners",
-    "path": "#partners"
+    "path": "/#partners"
+  },
+  {
+    "name": "Whitepaper",
+    "path": "https://drive.google.com/file/d/1u8zao8tXPYNxkekVG1SYGdbpC-Uf5tsD/view"
   }
 ]

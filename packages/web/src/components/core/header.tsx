@@ -71,7 +71,7 @@ export function Header() {
                 key={'header-menu-item' + i}
               >
                 <HashLink
-                  to={'/' + menu.path}
+                  to={menu.path}
                   _hover={{
                     textDecoration: 'unset',
                   }}
