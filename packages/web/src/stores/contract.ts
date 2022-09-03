@@ -57,7 +57,7 @@ export const useContract = create<{
           type,
         },
       },
-      amount: utils.format.parseNearAmount('0'),
+      amount: utils.format.parseNearAmount('0.5'),
     });
   },
 }));
