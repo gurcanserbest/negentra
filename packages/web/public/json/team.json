@@ -5,17 +5,17 @@
     "image": "/images/team/gurcannew.png"
   },
   {
+    "role": "Marketing Manager",
+    "name": "Ayca Zaman",
+    "image": "/images/team/aycanew.png"
+  },
+  {
     "role": "Project Manager",
     "name": "Saygin Kolainli",
     "image": "/images/team/saygin.png"
   },
   {
-    "role": "CMO",
-    "name": "Ayca Zaman",
-    "image": "/images/team/aycanew.png"
-  },
-  {
-    "role": "Game Developer",
+    "role": "Lead Developer",
     "name": "Dogukan Gozum",
     "image": "/images/team/dogukan.png"
   },
@@ -23,11 +23,6 @@
     "role": "Game Developer",
     "name": "Efekan Tugan ",
     "image": "/images/team/efekannew.png"
-  },
-  {
-    "role": "UI/UX Designer",
-    "name": "Irem Toraman",
-    "image": "/images/team/irem.png"
   },
   {
     "role": "3d Artist",
@@ -43,6 +38,11 @@
     "role": "3d Artist",
     "name": "Berkay Aslan",
     "image": "/images/team/berkay.png"
+  },
+  {
+    "role": "UI/UX Designer",
+    "name": "Irem Toraman",
+    "image": "/images/team/irem.png"
   },
   {
     "role": "Sound Engineer",
