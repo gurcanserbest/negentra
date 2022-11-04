@@ -71,7 +71,9 @@ export function Hero() {
               >
                 <Button3d
                   width="273px"
-                  onClick={() => navigate('/mint')}
+                  onClick={() => {
+                    window.location.href = "https://paras.id/publication/sociapol-636276cb6975ac001c80f2a7";
+                  }}
                 >
                   <Flex
                     alignItems="center"
@@ -100,7 +102,7 @@ export function Hero() {
                       fontFamily="Titan One"
                       textShadow="0px 2px 0px #AAAAAA"
                     >
-                      Mint Character's
+                      Mint A Character
                     </Text>
                   </Flex>
                 </Button3d>
