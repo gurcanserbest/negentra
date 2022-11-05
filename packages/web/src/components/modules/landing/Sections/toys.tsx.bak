@@ -126,7 +126,9 @@ export function Toys() {
             color="white"
           />
         </Button3d>
-        <HashLink to="/mint#mint-hero">
+        <HashLink
+          to="/mint#mint-hero"
+        >
           <Button3d
             flex="1"
             bg="#CA6110"
