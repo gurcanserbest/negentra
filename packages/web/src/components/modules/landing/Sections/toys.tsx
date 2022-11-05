@@ -3,7 +3,6 @@ import { useCallback, useRef } from 'react';
 import { useNavigate } from 'react-router';
 import { Text, Title, Button3d } from '@negentra/src/components';
 import { Container, Image, Flex } from '@chakra-ui/react';
-import { HashLink } from 'react-router-hash-link';
 import { ChevronDoubleRightIcon, ChevronDoubleLeftIcon, ShoppingBagIcon } from '@heroicons/react/solid';
 
 import toys from '@negentra/public/json/toys.json';
@@ -126,12 +125,13 @@ export function Toys() {
             color="white"
           />
         </Button3d>
-        <HashLink to="/mint#mint-hero">
           <Button3d
-            flex="1"
-            bg="#CA6110"
-            color="linear-gradient(180deg, #FC9F58 0%, #FF6F00 100%)"
-          >
+				onClick={() => {
+						window.location.href = "https://paras.id/publication/sociapol-636276cb6975ac001c80f2a7";
+					  }}
+				bg="#CA6110"
+				color="linear-gradient(180deg, #FC9F58 0%, #FF6F00 100%)"
+				>
             <Flex
               alignItems="center"
               justifyContent="center"
@@ -151,7 +151,6 @@ export function Toys() {
                   color="#FF6F00"
                 />
               </Flex>
-
               <Text
                 color="white"
                 fontSize="18px"
@@ -162,8 +161,6 @@ export function Toys() {
               </Text>
             </Flex>
           </Button3d>
-        </HashLink>
-
         <Button3d
           onClick={() => onNext()}
           cursor="pointer"
