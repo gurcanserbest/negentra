@@ -4,6 +4,11 @@
     "name": "Gürcan Serbest",
     "image": "/images/team/gurcannew.png"
   },
+    {
+    "role": "COO",
+    "name": "Saygın Kolaşinli",
+    "image": "/images/team/saygin.png"
+  },
   {
     "role": "CMO",
     "name": "Yasemin Güleçyüz",
@@ -48,11 +53,6 @@
     "role": "Sound Engineer",
     "name": "Serdar Celik",
     "image": "/images/team/serdar.png"
-  },
-  {
-    "role": "Community Manager",
-    "name": "Tayfun Turan",
-    "image": "/images/team/tayfun.png"
   },
   {
     "role": "Ilustrator",
