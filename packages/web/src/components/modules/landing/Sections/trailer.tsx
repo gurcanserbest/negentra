@@ -24,7 +24,7 @@ export function Trailer() {
             height="100%"
             loading="lazy"
             frameBorder="0"
-            src="https://www.youtube.com/embed/PDfTTYOx_lk?rel=0?version=3&autoplay=1&controls=0&&showinfo=0&loop=1"
+            src="https://www.youtube.com/embed/PDfTTYOx_lk??rel=0&autoplay=1&&mute=1&loop=1&fs=0"
           />
         </div>
 

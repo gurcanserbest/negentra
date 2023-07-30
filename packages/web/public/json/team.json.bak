@@ -4,10 +4,15 @@
     "name": "Gürcan Serbest",
     "image": "/images/team/gurcannew.png"
   },
+    {
+    "role": "COO",
+    "name": "Saygın Kolaşinli",
+    "image": "/images/team/saygin.png"
+  },
   {
     "role": "CMO",
     "name": "Yasemin Güleçyüz",
-    "image": "/images/team/yasemin.png"
+    "image": "/images/team/yaseminhn.png"
   },
   {
     "role": "CBE",
