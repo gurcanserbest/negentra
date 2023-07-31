@@ -20,6 +20,11 @@
     "image": "/images/team/umit.png"
   },
   {
+    "role": "CAO",
+    "name": "Erol Dönmez",
+    "image": "/images/team/erol.png"
+  },
+  {
     "role": "Lead Developer",
     "name": "Dogukan Gozum",
     "image": "/images/team/dogukan.png"
