@@ -236,14 +236,14 @@ export function Tokenomics() {
               marginRight="10px"
             />
 
-           {/*<Text
+           /*<Text
               color="#333333"
               fontWeight="700"
               fontSize="16px"
               whiteSpace="nowrap"
             >
               MV: Montly Vesting
-            </Text>*/}
+            </Text>*/
           </Flex>
         </Flex>
 
