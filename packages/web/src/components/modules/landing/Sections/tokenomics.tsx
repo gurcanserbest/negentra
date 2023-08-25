@@ -220,9 +220,32 @@ export function Tokenomics() {
               fontSize="16px"
               whiteSpace="nowrap"
             >
-              MLV: Montly Linear Vesting
+              DLV: Daily Linear Vesting
             </Text>
           </Flex>
+
+          <Flex
+            align="center"
+          >
+            <Flex
+              h="14px"
+              w="14px"
+              borderRadius="100%"
+              background="#9B59B6"
+              flexShrink="0"
+              marginRight="10px"
+            />
+
+           {/*<Text
+              color="#333333"
+              fontWeight="700"
+              fontSize="16px"
+              whiteSpace="nowrap"
+            >
+              MV: Montly Vesting
+            </Text>*/}
+          </Flex>
+        </Flex>
 
         <Flex>
           <Text
