@@ -4,76 +4,76 @@
     "percentage": "12%",
     "tge": "4%",
     "cliff": "8 Months",
-    "vesting": "24 Months LV"
+    "vesting": "24 Months MLV"
   },
   {
     "label": "IDO Sale",
     "percentage": "3%",
     "tge": "8%",
     "cliff": "2 Months",
-    "vesting": "12 Months"
+    "vesting": "12 Months MLV"
   },
   {
     "label": "IEO Sale",
     "percentage": "5%",
     "tge": "8%",
     "cliff": "2 Months",
-    "vesting": "12 Months"
+    "vesting": "12 Months MLV"
   },
   {
     "label": "Team",
     "percentage": "15%",
     "tge": "-",
     "cliff": "6 Months",
-    "vesting": "36 Months"
+    "vesting": "36 Months MLV"
   },
   {
     "label": "Advisors",
     "percentage": "4%",
     "tge": "-",
     "cliff": "9 Months",
-    "vesting": "24 Months"
+    "vesting": "24 Months MLV"
   },
   {
     "label": "Reserve",
     "percentage": "15%",
     "tge": "-",
     "cliff": "9 Months",
-    "vesting": "39 Months"
+    "vesting": "39 Months MLV"
   },
   {
     "label": "R&D",
     "percentage": "5%",
     "tge": "-",
     "cliff": "6 Months",
-    "vesting": "36 Months"
+    "vesting": "36 Months MLV"
   },
   {
     "label": "Liquidty Pool",
     "percentage": "16%",
     "tge": "15%",
     "cliff": "-",
-    "vesting": "12 Months"
+    "vesting": "12 Months MLV"
   },
   {
     "label": "Strategic Partners",
     "percentage": "5%",
     "tge": "5%",
     "cliff": "3 Months",
-    "vesting": "24 Months"
+    "vesting": "24 Months MLV"
   },
   {
     "label": "Rewards (Airdrop)",
     "percentage": "1%",
     "tge": "10%",
     "cliff": "-",
-    "vesting": "24 Months"
+    "vesting": "24 Months MLV"
   },
   {
     "label": "Marketing",
     "percentage": "19%",
     "tge": "-",
     "cliff": "3 Months",
-    "vesting": "36 Months"
+    "vesting": "36 Months MLV"
   }
 ]
