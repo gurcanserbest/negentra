@@ -1,65 +1,79 @@
 [
   {
     "label": "Private Sale",
+    "percentage": "12%",
+    "tge": "4%",
+    "cliff": "8 Months",
+    "vesting": "24 Months LV"
+  },
+  {
+    "label": "IDO Sale",
+    "percentage": "3%",
+    "tge": "8%",
+    "cliff": "2 Months",
+    "vesting": "12 Months"
+  },
+  {
+    "label": "IEO Sale",
     "percentage": "5%",
-    "tge": "-",
-    "cliff": "3 Months",
-    "vesting": "9 Months DLV"
+    "tge": "8%",
+    "cliff": "2 Months",
+    "vesting": "12 Months"
   },
   {
-    "label": "Public Sale",
-    "percentage": "9%",
-    "tge": "10%",
-    "cliff": "3 Months",
-    "vesting": "6 Months MV"
-  },
-  {
-    "label": "Liquidity",
+    "label": "Team",
     "percentage": "15%",
-    "tge": "10%",
-    "cliff": "0",
-    "vesting": "9 Months DLV"
-  },
-  {
-    "label": "Play&Earn Rewards",
-    "percentage": "30%",
     "tge": "-",
-    "cliff": "-",
-    "vesting": "48 Months DLV"
-  },
-  {
-    "label": "Team and Founders",
-    "percentage": "10%",
-    "tge": "-",
-    "cliff": "9 Months",
-    "vesting": "24 Months DLV"
-  },
-  {
-    "label": "Development",
-    "percentage": "10%",
-    "tge": "-",
-    "cliff": "-",
-    "vesting": "36 Months DLV"
-  },
-  {
-    "label": "Marketing",
-    "percentage": "14%",
-    "tge": "-",
-    "cliff": "-",
-    "vesting": "36 Months DLV"
-  },
-  {
-    "label": "Strategic Partnerts",
-    "percentage": "5%",
-    "tge": "-",
-    "cliff": "3 Months",
-    "vesting": "15 Months DLV"
+    "cliff": "6 Months",
+    "vesting": "36 Months"
   },
   {
     "label": "Advisors",
-    "percentage": "2%",
+    "percentage": "4%",
     "tge": "-",
     "cliff": "9 Months",
-    "vesting": "18 Months DLV"
+    "vesting": "24 Months"
+  },
+  {
+    "label": "Reserve",
+    "percentage": "15%",
+    "tge": "-",
+    "cliff": "9 Months",
+    "vesting": "39 Months"
+  },
+  {
+    "label": "R&D",
+    "percentage": "5%",
+    "tge": "-",
+    "cliff": "6 Months",
+    "vesting": "36 Months"
+  },
+  {
+    "label": "Liquidty Pool",
+    "percentage": "16%",
+    "tge": "15%",
+    "cliff": "-",
+    "vesting": "12 Months"
+  },
+  {
+    "label": "Strategic Partners",
+    "percentage": "5%",
+    "tge": "5%",
+    "cliff": "3 Months",
+    "vesting": "24 Months"
+  },
+  {
+    "label": "Rewards (Airdrop)",
+    "percentage": "1%",
+    "tge": "10%",
+    "cliff": "-",
+    "vesting": "24 Months"
+  },
+  {
+    "label": "Marketing",
+    "percentage": "19%",
+    "tge": "-",
+    "cliff": "3 Months",
+    "vesting": "36 Months"
   }
 ]
