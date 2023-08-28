@@ -117,7 +117,7 @@ export function Hero() {
                   position="relative"
                   top="-3px"
                   onClick={() => {
-                    window.location.href = "https://drive.google.com/file/d/1u8zao8tXPYNxkekVG1SYGdbpC-Uf5tsD/view";
+                    window.location.href = "https://shorturl.at/hqrBH";
                   }}
                   _active={{ background: '#333333', color: 'white' }}
                 >
