@@ -1,12 +1,12 @@
 [
   {
     "role": "Advisor",
-    "name": "Veysi Isler",
+    "name": "Veysi Işler",
     "image": "/images/advisors/veysi.png"
   },
   {
     "role": "Advisor",
-    "name": "Cemil Sinasi Turun",
+    "name": "Cemil Sinasi Türün",
     "image": "/images/advisors/cemil.png"
   },
   {
@@ -16,7 +16,7 @@
   },
   {
     "role": "Advisor",
-    "name": "Evren Canturk",
+    "name": "Evren Cantürk",
     "image": "/images/advisors/evren.png"
   },
   {
@@ -31,7 +31,7 @@
   },
     {
     "role": "Advisor",
-    "name": "Umutcan Ersarac",
+    "name": "Umut Ersaraç",
     "image": "/images/advisors/umutcan.png"
   },
   {
@@ -41,7 +41,7 @@
   },
   {
     "role": "Advisor",
-    "name": "Tugsan Gokgoz",
+    "name": "Tugsan Gökgöz",
     "image": "/images/advisors/tugsan.png"
   },
     {
