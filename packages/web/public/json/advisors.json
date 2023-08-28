@@ -1,62 +1,62 @@
 [
   {
-    "role": "CEO",
-    "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "role": "Advisor",
+    "name": "Veysi Isler",
+    "image": "/images/advisors/veysi.png"
   },
   {
-    "role": "CEO",
-    "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "role": "Advisor",
+    "name": "Cemil Sinasi Turun",
+    "image": "/images/advisors/cemil.png"
   },
   {
-    "role": "CEO",
-    "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "role": "Advisor",
+    "name": "Hakan Yıldız",
+    "image": "/images/advisors/hakan.png"
   },
   {
-    "role": "CEO",
-    "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "role": "Advisor",
+    "name": "Evren Canturk",
+    "image": "/images/advisors/evren.png"
   },
   {
-    "role": "CEO",
-    "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "role": "Advisor",
+    "name": "Gholamreza Anbarjafari",
+    "image": "/images/advisors/shahab.png"
   },
   {
-    "role": "CEO",
-    "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "role": "Advisor",
+    "name": "Erkan Bayol",
+    "image": "/images/advisors/erkan.png"
   },
   {
-    "role": "CEO",
-    "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "role": "Advisor",
+    "name": "A. Türker Balkar",
+    "image": "/images/advisors/turker.png"
   },
   {
-    "role": "CEO",
-    "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "role": "Advisor",
+    "name": "Tugsan Gokgoz",
+    "image": "/images/advisors/tugsan.png"
+  },
+    {
+    "role": "Advisor",
+    "name": "Jag Tessouki ",
+    "image": "/images/advisors/jag.png"
   },
   {
-    "role": "CEO",
-    "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "role": "Advisor",
+    "name": "Shan Liu",
+    "image": "/images/advisors/shan.png"
   },
   {
-    "role": "CEO",
-    "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "role": "Advisor",
+    "name": "Mere Korkmaz",
+    "image": "/images/advisors/mete.png"
   },
   {
-    "role": "CEO",
-    "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
-  },
-  {
-    "role": "CEO",
-    "name": "Gürcan Serbest",
-    "image": "/images/team/gurcan.png"
+    "role": "Advisor",
+    "name": "Omurden Sezgin",
+    "image": "/images/advisors/omurden.png"
   }
 ]
