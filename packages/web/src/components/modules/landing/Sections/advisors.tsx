@@ -1,5 +1,5 @@
 import { Container, Flex, Grid } from '@chakra-ui/react';
-import advisors from '@negentra/public/json/team.json';
+import advisors from '@negentra/public/json/advisors.json';
 import { PersonCard, Title, Text } from '@negentra/src/components';
 
 export function Advisors() {
@@ -27,8 +27,8 @@ export function Advisors() {
         <Text
           maxWidth="1184px"
           textAlign="center"
-        >
-          Sociapol’e üye olduğunda ilk yapacağın şey karakterini yaratmak olacak. Karakterinin giyeceği bütün kıyafet ve aksesuarlar ise birer NFT olarak tasarlandı – dolayısıyla sana ve karakterine ait olacak. Bu NFT’leri satabilir, takas edebilir, yılın belirli dönemlerine özel çıkaracağımız koleksiyonlardan satın alabilirsin. Karakterinin nasıl görüneceği tamamen sana bağlı, ve sana ait!
+        >  
+		The Sociapol advisory team comprises accomplished professionals spanning diverse domains. They're dedicated to providing invaluable insights to elevate every facet of the project.
         </Text>
       </Flex>
 

@@ -4,7 +4,7 @@
     "name": "Gürcan Serbest",
     "image": "/images/team/gurcannew.png"
   },
-    {
+  {
     "role": "COO",
     "name": "Saygın Kolaşinli",
     "image": "/images/team/saygin.png"
@@ -18,6 +18,11 @@
     "role": "CBE",
     "name": "Umit Ozkan",
     "image": "/images/team/umit.png"
+  },
+  {
+    "role": "CAO",
+    "name": "Erol Dönmez",
+    "image": "/images/team/erolabi.png"
   },
   {
     "role": "Lead Developer",
@@ -45,19 +50,9 @@
     "image": "/images/team/berkay.png"
   },
   {
-    "role": "UI/UX Designer",
-    "name": "Irem Toraman",
-    "image": "/images/team/irem.png"
-  },
-  {
     "role": "Sound Engineer",
     "name": "Serdar Celik",
     "image": "/images/team/serdar.png"
-  },
-  {
-    "role": "Community Manager",
-    "name": "Tayfun Turan",
-    "image": "/images/team/tayfun.png"
   },
   {
     "role": "Ilustrator",
