@@ -124,7 +124,7 @@ export function Hero() {
                   <Flex
                     justifyContent="start"
                   >
-                    Look At Whitepaper
+                    Look At Litepaper
                   </Flex>
                 </Button>
               </Flex>

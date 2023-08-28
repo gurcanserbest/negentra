@@ -81,7 +81,7 @@ export function Header () {
               </Flex>
             ))}
 
-            <Flex transform='translateY(3px)'>
+           {/* <Flex transform='translateY(3px)'>
               {walletConnected ? (
                 <Button3d
                   bg='#EEEEEE'
@@ -127,7 +127,7 @@ export function Header () {
                   </Flex>
                 </Button3d>
               )}
-            </Flex>
+            </Flex>*/}
           </Flex>
         </Flex>
       </nav>

@@ -29,6 +29,11 @@
     "name": "Erkan Bayol",
     "image": "/images/advisors/erkan.png"
   },
+    {
+    "role": "Advisor",
+    "name": "Umutcan Ersarac",
+    "image": "/images/advisors/umutcan.png"
+  },
   {
     "role": "Advisor",
     "name": "A. Türker Balkar",
@@ -51,12 +56,7 @@
   },
   {
     "role": "Advisor",
-    "name": "Mere Korkmaz",
+    "name": "Mete Korkmaz",
     "image": "/images/advisors/mete.png"
-  },
-  {
-    "role": "Advisor",
-    "name": "Omurden Sezgin",
-    "image": "/images/advisors/omurden.png"
   }
 ]
