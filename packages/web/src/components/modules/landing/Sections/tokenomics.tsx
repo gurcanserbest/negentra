@@ -220,7 +220,7 @@ export function Tokenomics() {
               fontSize="16px"
               whiteSpace="nowrap"
             >
-              DLV: Daily Linear Vesting
+              MLV: Monthly Linear Vesting
             </Text>
           </Flex>
         </Flex>
