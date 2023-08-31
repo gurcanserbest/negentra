@@ -117,14 +117,14 @@ export function Hero() {
                   position="relative"
                   top="-3px"
                   onClick={() => {
-                    window.location.href = "https://shorturl.at/hqrBH";
+                    window.location.href = "https://t.ly/7icLj";
                   }}
                   _active={{ background: '#333333', color: 'white' }}
                 >
                   <Flex
                     justifyContent="start"
                   >
-                    Look At Litepaper
+                    Look At Whitepaper
                   </Flex>
                 </Button>
               </Flex>
