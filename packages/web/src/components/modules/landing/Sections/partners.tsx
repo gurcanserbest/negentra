@@ -55,7 +55,7 @@ export function Partners() {
           <Flex>
             <Title
               color="white"
-              className="text-[80px] leading-[1] sm:text-[100px] leading-[114.5px]"
+              className="text-[45px] leading-[1] md:text-[100px] md:leading-[114.5px] mb-5 md:mb-0"
             >
               Partners
             </Title>
@@ -83,7 +83,7 @@ export function Partners() {
               >
                 <Image
                   src={logo}
-                  maxWidth="190px"
+                  className='md:max-w-[190px]'
                   w="auto"
                   loading="lazy"
                 />

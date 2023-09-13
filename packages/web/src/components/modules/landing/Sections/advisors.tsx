@@ -15,7 +15,7 @@ export function Advisors() {
       >
         <Title
           textTransform="uppercase"
-          className="text-[80px] leading-[1] sm:text-[100px] leading-[114.5px]"
+          className="text-[45px] leading-[1] md:text-[100px] md:leading-[114.5px] mb-5 md:mb-0"
         >
           Advisors
         </Title>

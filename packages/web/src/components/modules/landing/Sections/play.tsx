@@ -6,10 +6,10 @@ export function Play() {
   return (
     <Container
       id="play"
-      marginBottom="180px"
+      // marginBottom="180px"
       maxWidth="1410px"
       position="relative"
-      className="flex justify-end px-0"
+      className="flex justify-end px-0 mb-20 md:mb-[180px]"
     >
       <Image
         src="/images/prism.png"

@@ -16,7 +16,7 @@ export function Index() {
   return (
     <main>
       <Hero/>
-      <Trailer/>
+       <Trailer/>
       <About/>
       <Play/>
       <Toys/>
