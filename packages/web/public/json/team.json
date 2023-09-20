@@ -10,11 +10,6 @@
     "image": "/images/team/saygin.png"
   },
   {
-    "role": "CMO",
-    "name": "Yasemin Güleçyüz",
-    "image": "/images/team/yaseminhn.png"
-  },
-  {
     "role": "CBE",
     "name": "Umit Ozkan",
     "image": "/images/team/umit.png"
@@ -33,6 +28,11 @@
     "role": "Game Developer",
     "name": "Efekan Tugan ",
     "image": "/images/team/efekannew.png"
+  },
+  {
+    "role": "Sr. 3D Artist",
+    "name": "Ferhat Kovancı",
+    "image": "/images/team/ferhat.png"
   },
   {
     "role": "3d Artist",
