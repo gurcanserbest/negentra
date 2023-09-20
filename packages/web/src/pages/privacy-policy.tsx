@@ -9,7 +9,7 @@ const PrivacyPolicy = () => {
 
         <p>
             This Privacy Policy details the privacy practices of FERNVAILLE OYUN TEKNOLOJİLERİ ANONİM ŞİRKETİ (“Fernvaille” or “Company”) for its activities described below. You can learn which personal data is collected, shared and processed from this document. For detailed information about your rights regarding the processing and sharing of your personal data, please read this Privacy Policy.
-            Company's full address, Yeşiltepe Mah. İsmetinönü-2 Cad. No: 2 Tepebaşı / Eskişehir, Tax identification number: 3851626838. In terms of the Law on Protection of Personal Data No. 6698 (“KVKK” or “Law”), the Company operates as a “Data Controller”. In this Privacy Policy, “Personal Data” states any information relating to an identified or identifiable natural person processed by Fernvaille as a data controller.
+            Company's full address, Yeşiltepe Mah. İsmetinönü-2 Cad. No: 2/57-5 Tepebaşı / Eskişehir, Tax identification number: 3851626838. In terms of the Law on Protection of Personal Data No. 6698 (“KVKK” or “Law”), the Company operates as a “Data Controller”. In this Privacy Policy, “Personal Data” states any information relating to an identified or identifiable natural person processed by Fernvaille as a data controller.
         </p>
 
         <h3 className='font-bold'>1. Personal Data We Collect</h3>
@@ -139,15 +139,15 @@ const PrivacyPolicy = () => {
             If you would like to contact us about your questions or concerns over our privacy policy and applications, you can use one of the contact ways shown below.
             Information About Data Controller
             <p className='font-bold'>Exposed Name:</p> FERNVAILLE OYUN TEKNOLOJİLERİ ANONİM ŞİRKETİ
-            <p className="font-bold">Web Page:</p> https://www.fernvaille.com/
-            <p className="font-bold">E-mail:</p> info@fernvaille.com
+            <p className="font-bold">Web Page:</p> https://www.negentra.com.tr/
+            <p className="font-bold">E-mail:</p> info@negentra.com
             <p className="font-bold">Number:</p> +90 222 255 54 04
-            <p className="font-bold">Address:</p> Yeşiltepe Mah. İsmetinönü-2 Cad. No: 2 Tepebaşı / Eskişehir
+            <p className="font-bold">Address:</p> Yeşiltepe Mah. İsmetinönü-2 Cad. No: 2/57-5 Tepebaşı / Eskişehir
             <p className="font-bold">Contact Person</p>
-            <p className="font-bold">Name:</p> İrem
-            <p className="font-bold">Surname:</p> Toraman
-            <p className="font-bold">Title:</p> Executive Asistant
-            <p className="font-bold">Email:</p> info@fernvaille.com
+            <p className="font-bold">Name:</p> Erol
+            <p className="font-bold">Surname:</p> Dönmez
+            <p className="font-bold">Title:</p> CAO
+            <p className="font-bold">Email:</p> info@negentra.com.tr
             <p className="font-bold">Phone Number:</p> +90 222 255 54 04
         </p>
     </div>
