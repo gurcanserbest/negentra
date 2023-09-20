@@ -43,8 +43,8 @@ export function Footer () {
               ))}
             </Flex>
 
-            <Flex direction='column' className='space-y-[4px] hidden md:block'>
-              {/*policyItems.map((policy, i) =>
+            <Flex direction='column' className='space-y-[4px]'>
+              {policyItems.map((policy, i) =>
                 <Flex
                   key={'footer-policy-item' + i}
                 >
@@ -65,7 +65,7 @@ export function Footer () {
                     </Text>
                   </Link>
                 </Flex>
-              )*/}
+              )}
             </Flex>
 
             <Flex direction='column'>

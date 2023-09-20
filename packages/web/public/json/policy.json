@@ -1,14 +1,14 @@
-/*[
+[
   {
     "name": "Privacy Policy",
-    "path": "#"
+    "path": "/privacy-policy"
   },
   {
     "name": "Cookie Policy",
-    "path": "#"
+    "path": "/cookie-policy"
   },
   {
-    "name": "Clarification Policy",
-    "path": "#"
+    "name": "Clarification Text",
+    "path": "/clarification-text"
   }
-]*/
+]

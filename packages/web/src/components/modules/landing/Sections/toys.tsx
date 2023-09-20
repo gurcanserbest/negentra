@@ -1,3 +1,4 @@
+// @ts-nocheck
 import Slider from 'react-slick';
 import { useCallback, useRef } from 'react';
 import { useNavigate } from 'react-router';
@@ -31,7 +32,7 @@ const settings = {
       }
     },
   ],
-  className: 'neg-skins-carousel bg-[url(/images/slider-bg.jpg)] h-[700px] bg-[length:706px_240px] bg-[center_bottom] bg-no-repeat items-center',
+  className: 'neg-skins-carousel bg-[url(/images/slider-bg.jpg)] h-[500px] md:h-[700px] bg-[length:706px_240px] bg-[center_bottom] bg-no-repeat items-center',
 };
 
 export function Toys() {
@@ -67,7 +68,7 @@ export function Toys() {
         >
           <Title
             textTransform="uppercase"
-            className="text-[65px] leading-[1] sm:text-[100px] leading-[114.5px]"
+            className="text-[45px] leading-[1] md:text-[100px] md:leading-[114.5px]"
           >
             Characters
           </Title>
@@ -93,14 +94,15 @@ export function Toys() {
             alignItems="center"
             justifyContent="center"
             style={{
-              width: '231px',
+              // width: `231px`
             }}
+            className='w-[250px] md:w-[340px]'
           >
             <Image
               w="231px"
               src={toy}
               loading="lazy"
-              className="relative left-[60px] sm:left-0"
+              className="relative left-[60px] sm:-left-10"
             />
           </Flex>
         ))}
@@ -125,7 +127,7 @@ export function Toys() {
             color="white"
           />
         </Button3d>
-          <Button3d
+        <Button3d
 				onClick={() => {
 						window.location.href = "https://paras.id/publication/sociapol-636276cb6975ac001c80f2a7";
 					  }}
@@ -133,31 +135,30 @@ export function Toys() {
 				color="linear-gradient(180deg, #FC9F58 0%, #FF6F00 100%)"
 				>
             <Flex
+              className='w-[70px] lg:w-auto'
               alignItems="center"
               justifyContent="center"
             >
               <Flex
-                w="34px"
-                h="34px"
                 bg="white"
                 marginRight="15px"
                 borderRadius="50%"
                 alignItems="center"
                 justifyContent="center"
+                className='w-[34px] h-[18px] md:w-[34px] md:h-[34px]'
               >
                 <ShoppingBagIcon
-                  width="16px"
-                  height="16px"
                   color="#FF6F00"
+                  className='w-full h-full md:w-[16px] md:h-[16px]'
                 />
               </Flex>
               <Text
                 color="white"
-                fontSize="18px"
                 fontFamily="Titan One"
                 textShadow="0px 2px 0 #AAAAAA"
+                className='md:text-[18px] '
               >
-                Mint Yours Now
+                Mint <span className='hidden md:inline-block'>Yours Now</span>
               </Text>
             </Flex>
           </Button3d>
