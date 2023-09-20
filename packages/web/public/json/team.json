@@ -1,0 +1,62 @@
+[
+  {
+    "role": "CEO",
+    "name": "Gürcan Serbest",
+    "image": "/images/team/gurcannew.png"
+  },
+  {
+    "role": "COO",
+    "name": "Saygın Kolaşinli",
+    "image": "/images/team/saygin.png"
+  },
+  {
+    "role": "CMO",
+    "name": "Yasemin Güleçyüz",
+    "image": "/images/team/yaseminhn.png"
+  },
+  {
+    "role": "CBE",
+    "name": "Umit Ozkan",
+    "image": "/images/team/umit.png"
+  },
+  {
+    "role": "CAO",
+    "name": "Erol Dönmez",
+    "image": "/images/team/erolabi.png"
+  },
+  {
+    "role": "Lead Developer",
+    "name": "Dogukan Gozum",
+    "image": "/images/team/dogukan.png"
+  },
+  {
+    "role": "Game Developer",
+    "name": "Efekan Tugan ",
+    "image": "/images/team/efekannew.png"
+  },
+  {
+    "role": "3d Artist",
+    "name": "Esen Caluk",
+    "image": "/images/team/esen.png"
+  },
+  {
+    "role": "3d Artist",
+    "name": "Mert Bostankolu",
+    "image": "/images/team/mert.png"
+  },
+  {
+    "role": "3d Artist",
+    "name": "U. Berkay Arslan",
+    "image": "/images/team/berkay.png"
+  },
+  {
+    "role": "Sound Engineer",
+    "name": "Serdar Celik",
+    "image": "/images/team/serdar.png"
+  },
+  {
+    "role": "Ilustrator",
+    "name": "Norman Suarno",
+    "image": "/images/team/normannew.png"
+  }
+]

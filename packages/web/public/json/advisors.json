@@ -1,0 +1,62 @@
+[
+  {
+    "role": "Advisor",
+    "name": "Veysi Işler",
+    "image": "/images/advisors/veysi.png"
+  },
+  {
+    "role": "Advisor",
+    "name": "Cemil Sinasi Türün",
+    "image": "/images/advisors/cemil.png"
+  },
+  {
+    "role": "Advisor",
+    "name": "Hakan Yıldız",
+    "image": "/images/advisors/hakan.png"
+  },
+  {
+    "role": "Advisor",
+    "name": "Evren Cantürk",
+    "image": "/images/advisors/evren.png"
+  },
+  {
+    "role": "Advisor",
+    "name": "Shahab Anbarjafari",
+    "image": "/images/advisors/shahab.png"
+  },
+  {
+    "role": "Advisor",
+    "name": "Erkan Bayol",
+    "image": "/images/advisors/erkan.png"
+  },
+    {
+    "role": "Advisor",
+    "name": "Umut Ersaraç",
+    "image": "/images/advisors/umutcan.png"
+  },
+  {
+    "role": "Advisor",
+    "name": "A. Türker Balkar",
+    "image": "/images/advisors/turker.png"
+  },
+  {
+    "role": "Advisor",
+    "name": "Tugsan Gökgöz",
+    "image": "/images/advisors/tugsan.png"
+  },
+    {
+    "role": "Advisor",
+    "name": "Jag Tessouki ",
+    "image": "/images/advisors/jag.png"
+  },
+  {
+    "role": "Advisor",
+    "name": "Shan Liu",
+    "image": "/images/advisors/shan.png"
+  },
+  {
+    "role": "Advisor",
+    "name": "Mete Korkmaz",
+    "image": "/images/advisors/mete.png"
+  }
+]
