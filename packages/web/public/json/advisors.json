@@ -51,11 +51,6 @@
   },
   {
     "role": "Advisor",
-    "name": "Shan Liu",
-    "image": "/images/advisors/shan.png"
-  },
-  {
-    "role": "Advisor",
     "name": "Mete Korkmaz",
     "image": "/images/advisors/mete.png"
   }
