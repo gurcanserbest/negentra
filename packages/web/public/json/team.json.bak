@@ -20,12 +20,7 @@
     "image": "/images/team/erolabi.png"
   },
   {
-    "role": "Lead Developer",
-    "name": "Dogukan Gozum",
-    "image": "/images/team/dogukan.png"
-  },
-  {
-    "role": "Game Developer",
+    "role": "Lead Game Developer",
     "name": "Efekan Tugan ",
     "image": "/images/team/efekannew.png"
   },
@@ -45,11 +40,6 @@
     "image": "/images/team/mert.png"
   },
   {
-    "role": "3d Artist",
-    "name": "U. Berkay Arslan",
-    "image": "/images/team/berkay.png"
-  },
-  {
     "role": "Sound Engineer",
     "name": "Serdar Celik",
     "image": "/images/team/serdar.png"
@@ -60,8 +50,8 @@
     "image": "/images/team/normannew.png"
   },
   {
-    "role": "Ilustrator",
-    "name": "Norman Suarno",
-    "image": "/images/team/normannew.png"
+    "role": "Motivation Officer",
+    "name": "Nero",
+    "image": "/images/team/NeroCMO.png"
   }
 ]
