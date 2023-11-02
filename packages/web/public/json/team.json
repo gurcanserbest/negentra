@@ -20,11 +20,6 @@
     "image": "/images/team/erolabi.png"
   },
   {
-    "role": "Lead Game Developer",
-    "name": "Efekan Tugan ",
-    "image": "/images/team/efekannew.png"
-  },
-  {
     "role": "Sr. 3D Artist",
     "name": "Ferhat Kovancı",
     "image": "/images/team/ferhat.png"
@@ -35,6 +30,16 @@
     "image": "/images/team/onur.png"
   },
   {
+    "role": "Sr. Sound Engineer",
+    "name": "Serdar Celik",
+    "image": "/images/team/serdar.png"
+  },
+  {
+    "role": "Game Developer",
+    "name": "Efekan Tugan ",
+    "image": "/images/team/efekannew.png"
+  },
+  {
     "role": "3d Artist",
     "name": "Esen Caluk",
     "image": "/images/team/esen.png"
@@ -43,11 +48,6 @@
     "role": "3d Artist",
     "name": "Mert Bostankolu",
     "image": "/images/team/mert.png"
-  },
-  {
-    "role": "Sound Engineer",
-    "name": "Serdar Celik",
-    "image": "/images/team/serdar.png"
   },
   {
     "role": "Ilustrator",
