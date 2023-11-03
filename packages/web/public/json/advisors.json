@@ -44,9 +44,19 @@
     "name": "Tugsan Gökgöz",
     "image": "/images/advisors/tugsan.png"
   },
-    {
+  {
     "role": "Advisor",
     "name": "Jag Tessouki ",
     "image": "/images/advisors/jag.png"
+  },
+  {
+    "role": "Advisor",
+    "name": "Shan Liu",
+    "image": "/images/advisors/shan.png"
+  },
+  {
+    "role": "Advisor",
+    "name": "Omurden Sezgin",
+    "image": "/images/advisors/omurden.png"
   }
 ]
