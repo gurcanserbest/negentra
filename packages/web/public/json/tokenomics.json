@@ -51,7 +51,7 @@
   {
     "label": "Liquidty Pool",
     "percentage": "16%",
-    "tge": "15%",
+    "tge": "10%",
     "cliff": "-",
     "vesting": "12 Months MLV"
   },
