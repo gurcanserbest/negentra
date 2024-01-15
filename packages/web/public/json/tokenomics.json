@@ -8,14 +8,14 @@
   },
   {
     "label": "IDO Sale",
-    "percentage": "3%",
-    "tge": "8%",
+    "percentage": "6.30%",
+    "tge": "10%",
     "cliff": "2 Months",
     "vesting": "12 Months MLV"
   },
   {
     "label": "IEO Sale",
-    "percentage": "5%",
+    "percentage": "2.5%",
     "tge": "8%",
     "cliff": "2 Months",
     "vesting": "12 Months MLV"
@@ -50,7 +50,7 @@
   },
   {
     "label": "Liquidty Pool",
-    "percentage": "16%",
+    "percentage": "15.2%",
     "tge": "10%",
     "cliff": "-",
     "vesting": "12 Months MLV"
