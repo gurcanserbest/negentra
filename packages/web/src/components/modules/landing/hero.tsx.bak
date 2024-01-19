@@ -117,7 +117,7 @@ export function Hero() {
                   position="relative"
                   top="-3px"
                   onClick={() => {
-                    window.location.href = "https://drive.google.com/file/d/1MmWLuJSIkVN_RW4R6nHQLGMdDDLjiHao/view?usp=sharinghttps://t.ly/7icLj";
+                    window.location.href = "https://t.ly/7icLj";
                   }}
                   _active={{ background: '#333333', color: 'white' }}
                 >
