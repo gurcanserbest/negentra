@@ -36,8 +36,8 @@
   },
   {
     "role": "Game Developer",
-    "name": "Efekan Tugan ",
-    "image": "/images/team/efekannew.png"
+    "name": "Asrın Dogan",
+    "image": "/images/team/asrin.png"
   },
   {
     "role": "3d Artist",
@@ -50,9 +50,19 @@
     "image": "/images/team/mert.png"
   },
   {
+    "role": "Graphic Artist",
+    "name": "Emine Ozdemir",
+    "image": "/images/team/emine.png"
+  },
+  {
     "role": "Ilustrator",
     "name": "Norman Suarno",
     "image": "/images/team/normannew.png"
+  },
+  {
+    "role": "SM Manager",
+    "name": "Seyedehfatemeh Nouraei",
+    "image": "/images/team/fateme.png"
   },
   {
     "role": "Motivation Officer",
