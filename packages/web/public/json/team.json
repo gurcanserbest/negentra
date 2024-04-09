@@ -16,6 +16,11 @@
   },
   {
     "role": "Sr. 3D Artist",
+    "name": Onur Unlu",
+    "image": "/images/team/onur.png"
+  },
+  {
+    "role": "Sr. 3D Artist",
     "name": "Ferhat Kovancı",
     "image": "/images/team/ferhat.png"
   },
@@ -48,11 +53,6 @@
     "role": "Ilustrator",
     "name": "Norman Suarno",
     "image": "/images/team/normannew.png"
-  },
-  {
-    "role": "SM Manager",
-    "name": "Fatemeh Nouraei",
-    "image": "/images/team/fateme.png"
   },
   {
     "role": "Motivation Officer",
