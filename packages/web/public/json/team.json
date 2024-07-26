@@ -40,11 +40,6 @@
     "image": "/images/team/esen.png"
   },
   {
-    "role": "3d Artist",
-    "name": "Mert Bostankolu",
-    "image": "/images/team/mert.png"
-  },
-  {
     "role": "Graphic Artist",
     "name": "Emine Ozdemir",
     "image": "/images/team/emine.png"
@@ -53,10 +48,5 @@
     "role": "Ilustrator",
     "name": "Norman Suarno",
     "image": "/images/team/normannew.png"
-  },
-  {
-    "role": "Motivation Officer",
-    "name": "Nero",
-    "image": "/images/team/NeroTheCMO.png"
   }
 ]
