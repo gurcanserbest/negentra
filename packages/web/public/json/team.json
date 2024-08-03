@@ -9,6 +9,11 @@
     "name": "Saygın Kolaşinli",
     "image": "/images/team/saygin.png"
   },
+    {
+    "role": "Project Manager",
+    "name": "Saime Alagoz",
+    "image": "/images/team/saime.png"
+  },
   {
     "role": "CAO",
     "name": "Ahmet F. Yilmaz",
@@ -33,6 +38,11 @@
     "role": "Game Developer",
     "name": "Asrın Dogan",
     "image": "/images/team/asrin.png"
+  },
+    {
+    "role": "Game Developer",
+    "name": "İpek Sevindik",
+    "image": "/images/team/ipek.png"
   },
   {
     "role": "3d Artist",
